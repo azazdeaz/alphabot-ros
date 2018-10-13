@@ -70,7 +70,6 @@ class image_converter:
                     cv2.circle(cv_image, (center_x, center_y), 10, 255)
 
             try:
-                print('publish image')
                 self.image_pub.publish(
                     self.bridge.cv2_to_imgmsg(cv_image, "bgr8"))
             except CvBridgeError as e:
