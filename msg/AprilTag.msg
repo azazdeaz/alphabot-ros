@@ -1,0 +1,10 @@
+string tag_family
+uint32 tag_id
+uint8 hamming
+float32 decision_margin
+float32 goodness
+XY center
+XY corner_a
+XY corner_b
+XY corner_c
+XY corner_d
